@@ -1,7 +1,5 @@
 eureka:
   client:
-    healthcheck:
-      enabled: true
     serviceUrl:
       defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
   instance:
